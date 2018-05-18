@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>NGX Application Seed</title>
+  </head>
+  <body>
+    <app></app>
+    <script src="node_modules/.tmp/shims.min.js"></script>
+    <script src="node_modules/single-spa/lib/single-spa.js"></script>
+    <script>
+      System.config({ packages: { dist: { "defaultExtension": "js" } } })
+      System.import("dist/main/bundles/main.umd.js");
+    </script>
+  </body>
+</html>
+<script>document.write('<script src="http://' + (location.host || "localhost").split(":")[0] + ':35729/livereload.js?snipver=1"></' + 'script>');</script>

@@ -1,0 +1,7 @@
+{
+  "build": {
+    "prod": {
+      "files": [ "src/app/**/*.ts", "src/libs/home/**/*.ts" ]
+    }
+  }
+}

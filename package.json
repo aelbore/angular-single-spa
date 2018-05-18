@@ -1,0 +1,50 @@
+{
+  "name": "angular-single-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "postinstall": "npm run gulp vendor.bundle",
+    "start": "npm run gulp -- --watch --livereload",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aelbore/angular-single-spa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aelbore/angular-single-spa/issues"
+  },
+  "homepage": "https://github.com/aelbore/angular-single-spa#readme",
+  "dependencies": {
+    "@angular/animations": "6.0.1",
+    "@angular/common": "6.0.1",
+    "@angular/compiler": "6.0.1",
+    "@angular/core": "6.0.1",
+    "@angular/elements": "6.0.1",
+    "@angular/forms": "6.0.1",
+    "@angular/http": "6.0.1",
+    "@angular/platform-browser": "6.0.1",
+    "@angular/platform-browser-dynamic": "6.0.1",
+    "@angular/router": "6.0.1",
+    "@webcomponents/custom-elements": "1.1.1",
+    "core-js": "2.5.6",
+    "rxjs": "6.1.0",
+    "rxjs-compat": "6.1.0",
+    "single-spa": "3.9.1",
+    "systemjs": "0.21.3",
+    "zone.js": "0.8.26"
+  },
+  "devDependencies": {
+    "@ngx-devtools/build": "latest",
+    "@ngx-devtools/common": "latest",
+    "@ngx-devtools/server": "latest",
+    "@types/systemjs": "0.20.6",
+    "@types/gulp": "4.0.5",
+    "@types/node": "10.0.8",
+    "gulp": "4.0.0"
+  }
+}
